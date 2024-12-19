@@ -1,0 +1,61 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main{
+   /* height:100%;*/
+    width:100vw;
+    background-color:#23527c;
+    justify-content:center;
+    justify-items:center;
+}
+.main .head{
+    width:100vw;
+    height:70px;
+
+    text-align:center;
+    padding-top:20px;
+    border-bottom:1px solid #8e8c8cff;
+}
+.main .head h4{
+    color:#fff;
+}
+.main .data{
+
+    height:100%;
+    width:65vw;
+    margin-top:30px;
+    color:#fff;
+}
+.main .data input{
+   /* width:100%;*/
+    
+}
+.main .data tr,td{
+    padding:20px;
+    
+
+}
+/*.main .data table tr td input{
+    width:700px;
+    margin-left:20px;
+}*/
+.main .data tr .radio{
+    margin:0;
+    padding:0;
+}
+.form-control{
+    width:600px;
+}
+.main .data .btn{
+    height:50px;
+    width:100%;
+    cursor:auto;
+    margin-bottom:40px;
+    margin-top:10px;
+}
+.main .data .btn input{
+    height:40px;
+    width:150px;
+}
